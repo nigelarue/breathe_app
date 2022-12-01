@@ -1,6 +1,3 @@
-// instead of the "new project" function we will need to insert the "new meditation session" log here to store.
-// below requirements need to be updated to match our recorded sessions associated with a user's profile and model id to pass through the update
-
 const router = require('express').Router();
 const { Meditation } = require('../../models');
 const withAuth = require('../../utils/auth');
