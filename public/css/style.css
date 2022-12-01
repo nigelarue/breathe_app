@@ -208,12 +208,12 @@ display:none;
     padding: 1.5rem 1rem;
   }
   
-.navbar-expand-lg .navbar-nav .nav-link {
+/* .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: .5rem;
   padding-left: 15.5rem;
   display: inline;
   font-size:20px;
-}
+} */
 /* h1{
   opacity:70%;
   text-align: center;
