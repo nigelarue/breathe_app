@@ -1,4 +1,4 @@
-const { Model, DataTypes } = require('sequelize');
+const { Model, DataTypes, DATEONLY } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
 
@@ -35,6 +35,11 @@ User.init(
         len: [8],
       },
     },
+
+    timestamp: {
+      type: DATEONLY,
+      allowNull: true,
+    }
   },
   {
     hooks: {
