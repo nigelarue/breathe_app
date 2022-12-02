@@ -191,7 +191,7 @@ display:none;
 
   .cardo{
     position: relative;
-    display: -ms-flexbox;
+    display: block;
     align-content: center;
     height: 350px;
     width: 350px;
